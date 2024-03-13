@@ -1,0 +1,28 @@
+.conection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.conection-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.foto-conexões {
+  margin-right: 10px;
+  max-width: 30px;
+}
+
+.followersconection-conection {
+  font-size: 0.7rem;
+}

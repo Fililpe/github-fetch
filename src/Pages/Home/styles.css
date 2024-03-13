@@ -1,0 +1,22 @@
+main,
+aside,
+section {
+  /* border: 1px solid #00000026; */
+  color: #e8e8e8;
+}
+
+main {
+  width: 100%;
+}
+
+aside {
+  width: calc(40% - 6em);
+}
+
+section {
+  width: calc(40% - 6em);
+}
+
+.estrtura {
+  display: flex;
+}
