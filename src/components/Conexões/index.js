@@ -3,8 +3,8 @@ import "./styles.css";
 const Conexões = () => {
   return (
     <div className="conection-container">
-      <div class="conection">
-        <div class="conection-wrap">
+      <div className="conection">
+        <div className="conection-wrap">
           <img
             src="https://avatars.githubusercontent.com/u/4248081?v=4"
             className="foto-conexões"
