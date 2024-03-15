@@ -2,24 +2,24 @@ import "./styles.css";
 
 const Usuario = ({ currentUser }) => {
   if (!currentUser) {
-    return <div>Carregando...</div>;
+    return null;
   }
   return (
     <div className="usuario">
       <img src={currentUser.avatar_url} alt="foto usurio"></img>
       <span className="user_name">{currentUser.name}</span>
-      <hr />
       <span className="user_id">@{currentUser.login}</span>
-      <hr />
-      <span className="bio">{currentUser.bio}</span>
-      <hr />
-      <span className="followers">{currentUser.followers}</span>
-      <hr />
-      <span className="following">{currentUser.following}</span>
-      <hr />
-      <span className="created">{currentUser.created_at}</span>
-      <hr />
-      <span className="updated">{currentUser.updated_at}</span>
+      <span className="bio">Bio:{currentUser.bio}</span>
+      <span className="followers">Seguidores: {currentUser.followers}</span>
+      <span className="following">Seguindo: {currentUser.following}</span>
+      <span className="created">
+        Criado em: <br />
+        {currentUser.created_at}
+      </span>
+      <span className="updated">
+        Ultima Atualização: <br />
+        {currentUser.updated_at}
+      </span>
     </div>
   );
 };

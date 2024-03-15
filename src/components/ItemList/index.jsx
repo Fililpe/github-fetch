@@ -5,7 +5,6 @@ const ItemList = ({ title, description }) => {
     <div className="item-list">
       <strong>{title}</strong>
       <span>{description}</span>
-      <hr />
     </div>
   );
 };

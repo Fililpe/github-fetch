@@ -1,22 +1,25 @@
-main,
-aside,
-section {
-  /* border: 1px solid #00000026; */
-  color: #e8e8e8;
-}
-
 main {
-  width: 100%;
+  width: 70%;
 }
 
 aside {
-  width: calc(40% - 6em);
+  width: calc(50% - 6em);
 }
 
 section {
-  width: calc(40% - 6em);
+  width: calc(50% - 6em);
 }
 
-.estrtura {
+.estrutura {
   display: flex;
+}
+
+.empty {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "MontSerrat";
 }
